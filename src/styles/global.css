@@ -8,21 +8,18 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  object-fit: contain;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-img {
-  width: auto;
-  margin: auto;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
-
 h1 {
   font-size: 4rem;
+  line-height: 99%;
   font-weight: bold;
   letter-spacing: -5px;
   font-family: "Sora", sans-serif;
@@ -32,6 +29,10 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
   font-family: "Sora";
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 p {
@@ -51,24 +52,22 @@ button {
 
 hr {
   border: 0;
-  width: 4rem;
+  width: 2rem;
   border-top: 2px solid black;
 }
 
-.grid_two {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 @media only screen and (max-width: 500px) {
-  .grid_two {
-    display: block;
+  h1 {
+    font-size: 2.75rem;
+    letter-spacing: -2px;
   }
 
-  h1 {
-    line-height: 99%;
-    font-size: 2.5rem;
-    letter-spacing: -2px;
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 0.75rem;
   }
 
   p {
