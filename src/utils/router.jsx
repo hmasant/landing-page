@@ -1,0 +1,16 @@
+import { lazy } from "react";
+import { Route, Routes } from "react-router-dom";
+
+import "../styles/global.css";
+
+const HomeScreen = lazy(() => import("../screens/home/HomeScreen"));
+const ThankyouScreen = lazy(() => import("../screens/thanks/ThanksScreen"));
+
+export const Router = () => {
+  return (
+    <Routes>
+      <Route index element={<HomeScreen />} />
+      <Route path="/thanks" element={<ThankyouScreen />} />
+    </Routes>
+  );
+};

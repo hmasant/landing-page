@@ -1,0 +1,55 @@
+.scroll_wrapper {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll_wrapper section {
+  height: 100vh;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.hero_left {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero_right {
+  height: 100vh;
+  background-size: cover;
+  background-color: black;
+  background-image: url("/hero_bg.svg");
+}
+
+.top_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_heading p {
+  margin: 0 1.5rem;
+}
+
+.sec_two {
+  padding: 2rem;
+}
+
+.sec_two h2 {
+  width: 45rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .hero_right {
+    display: none;
+  }
+
+  .hero_left {
+    height: calc(100vh - 4rem);
+  }
+}
