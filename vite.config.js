@@ -10,7 +10,11 @@ export default defineConfig({
     cssCodeSplit: true,
     rollupOptions: {
       output: {
-        manualChunks: { vendor: ["react", "react-dom", "react-router-dom"] },
+        manualChunks: {
+          vendor: ["react", "react-dom", "react-router-dom"],
+          swiper: ["swiper"],
+          gsap: ["gsap"],
+        },
       },
     },
   },

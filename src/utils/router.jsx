@@ -3,6 +3,10 @@ import { Route, Routes } from "react-router-dom";
 
 import "../styles/global.css";
 
+import "swiper/css";
+import "swiper/css/effect-cards";
+import "swiper/css/effect-coverflow";
+
 const HomeScreen = lazy(() => import("../screens/home/HomeScreen"));
 const ThankyouScreen = lazy(() => import("../screens/thanks/ThanksScreen"));
 

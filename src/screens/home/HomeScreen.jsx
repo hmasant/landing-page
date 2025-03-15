@@ -1,4 +1,6 @@
 import style from "./style.module.css";
+import { EffectCoverflow } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function HomeScreen() {
   return (
@@ -53,6 +55,46 @@ export default function HomeScreen() {
           <div className={style.sec_two_heading}>
             <h2>Success Stories That Speak For Themselves</h2>
           </div>
+          <br />
+          <br />
+          <Swiper
+            grabCursor={true}
+            slidesPerView={3}
+            effect="coverflow"
+            centeredSlides={false}
+            modules={[EffectCoverflow]}
+          >
+            <SwiperSlide>
+              <img
+                src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
+                style={{ width: "100%" }}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
+                style={{ width: "100%" }}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
+                style={{ width: "100%" }}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
+                style={{ width: "100%" }}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
+                style={{ width: "100%" }}
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </section>
       <section>
@@ -97,6 +139,7 @@ export default function HomeScreen() {
           </div>
         </div>
       </section>
+      <section>Hello</section>
     </section>
   );
 }
