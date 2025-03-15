@@ -33,37 +33,37 @@ export default function TestimonialSection() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
-            alt="Image Section"
             style={{ width: "100%" }}
+            src="/slider_image.svg"
+            alt="Image Section"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
-            alt="Image Section"
             style={{ width: "100%" }}
+            src="/slider_image.svg"
+            alt="Image Section"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
-            alt="Image Section"
             style={{ width: "100%" }}
+            src="/slider_image.svg"
+            alt="Image Section"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
-            alt="Image Section"
             style={{ width: "100%" }}
+            src="/slider_image.svg"
+            alt="Image Section"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://images.unsplash.com/photo-1614430440602-6d11323cdc75"
-            alt="Image Section"
             style={{ width: "100%" }}
+            src="/slider_image.svg"
+            alt="Image Section"
           />
         </SwiperSlide>
         <SwiperSlide>
