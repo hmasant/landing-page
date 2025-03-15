@@ -14,6 +14,7 @@ export default function HomeScreen() {
         <div className="grid_two">
           <div className={style.hero_left}>
             <img
+              loading="lazy"
               src="/logo.svg"
               fetchPriority="low"
               alt="Optimal Virtual Employee"
@@ -24,6 +25,7 @@ export default function HomeScreen() {
                 style={{ height: "1.5rem", margin: 0 }}
                 src="/google_review.svg"
                 fetchPriority="low"
+                loading="lazy"
                 alt="Image"
               />
               <br />
@@ -43,6 +45,7 @@ export default function HomeScreen() {
                   style={{ height: "1.25rem" }}
                   fetchPriority="low"
                   src="/arrow.svg"
+                  loading="lazy"
                   alt="Arrow"
                 />
               </button>

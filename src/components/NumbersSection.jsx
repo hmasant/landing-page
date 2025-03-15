@@ -34,6 +34,7 @@ export default function NumbersSection() {
               style={{ height: "1.25rem" }}
               fetchPriority="low"
               src="/arrow.svg"
+              loading="lazy"
               alt="Arrow"
             />
           </button>
@@ -47,6 +48,7 @@ export default function NumbersSection() {
             fetchPriority="low"
             src="/numbers.svg"
             alt="Our Story"
+            loading="lazy"
           />
         </div>
       </div>

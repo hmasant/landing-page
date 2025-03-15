@@ -30,6 +30,7 @@ export default function TestimonialSection() {
             src="/swipe_start.svg"
             fetchPriority="low"
             alt="Swipe Image"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -38,6 +39,7 @@ export default function TestimonialSection() {
             src="/slider_image.avif"
             fetchPriority="low"
             alt="Image Section"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -46,6 +48,7 @@ export default function TestimonialSection() {
             src="/slider_image.avif"
             fetchPriority="low"
             alt="Image Section"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -54,6 +57,7 @@ export default function TestimonialSection() {
             src="/slider_image.avif"
             fetchPriority="low"
             alt="Image Section"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -62,6 +66,7 @@ export default function TestimonialSection() {
             src="/slider_image.avif"
             fetchPriority="low"
             alt="Image Section"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -70,6 +75,7 @@ export default function TestimonialSection() {
             src="/slider_image.avif"
             fetchPriority="low"
             alt="Image Section"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -78,6 +84,7 @@ export default function TestimonialSection() {
             src="/swipe_end.svg"
             fetchPriority="low"
             alt="Swipe Image"
+            loading="lazy"
           />
         </SwiperSlide>
       </Swiper>

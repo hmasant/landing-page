@@ -12,6 +12,7 @@ export default function ProcessSection() {
             style={{ height: "80vh" }}
             fetchPriority="low"
             src="/steps.svg"
+            loading="lazy"
             alt="Image"
           />
         </div>
@@ -45,6 +46,7 @@ export default function ProcessSection() {
                 style={{ height: "1.25rem" }}
                 fetchPriority="low"
                 src="/arrow.svg"
+                loading="lazy"
                 alt="Arrow"
               />
             </button>
