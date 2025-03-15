@@ -3,8 +3,12 @@ import style from "./style.module.css";
 
 const NumbersSection = lazy(() => import("../../components/NumbersSection"));
 const ProcessSection = lazy(() => import("../../components/ProcessSection"));
+const ServicesSection = lazy(() => import("../../components/ServicesSection"));
 const TestimonialSection = lazy(() =>
   import("../../components/TestimonialSection")
+);
+const DeveloperSection = lazy(() =>
+  import("../../components/DeveloperSection")
 );
 
 export default function HomeScreen() {
@@ -36,7 +40,7 @@ export default function HomeScreen() {
               <br />
               <br />
               <button>
-                Book a free consultation &nbsp;
+                Book a free consultation
                 <img
                   style={{ height: "1.25rem" }}
                   src="/arrow.svg"
@@ -56,6 +60,12 @@ export default function HomeScreen() {
       </section>
       <section>
         <ProcessSection />
+      </section>
+      <section>
+        <ServicesSection />
+      </section>
+      <section>
+        <DeveloperSection />
       </section>
     </section>
   );

@@ -36,7 +36,7 @@ export default function TestimonialSection() {
         <SwiperSlide>
           <img
             style={{ width: "100%" }}
-            src="/slider_image.avif"
+            src="/testimonial.avif"
             fetchPriority="low"
             alt="Image Section"
             loading="lazy"
@@ -45,7 +45,7 @@ export default function TestimonialSection() {
         <SwiperSlide>
           <img
             style={{ width: "100%" }}
-            src="/slider_image.avif"
+            src="/testimonial.avif"
             fetchPriority="low"
             alt="Image Section"
             loading="lazy"
@@ -54,7 +54,7 @@ export default function TestimonialSection() {
         <SwiperSlide>
           <img
             style={{ width: "100%" }}
-            src="/slider_image.avif"
+            src="/testimonial.avif"
             fetchPriority="low"
             alt="Image Section"
             loading="lazy"
@@ -63,7 +63,7 @@ export default function TestimonialSection() {
         <SwiperSlide>
           <img
             style={{ width: "100%" }}
-            src="/slider_image.avif"
+            src="/testimonial.avif"
             fetchPriority="low"
             alt="Image Section"
             loading="lazy"
@@ -72,7 +72,7 @@ export default function TestimonialSection() {
         <SwiperSlide>
           <img
             style={{ width: "100%" }}
-            src="/slider_image.avif"
+            src="/testimonial.avif"
             fetchPriority="low"
             alt="Image Section"
             loading="lazy"

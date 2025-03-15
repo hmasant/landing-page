@@ -28,6 +28,40 @@
   text-align: center;
 }
 
+.services_grid {
+  gap: 4rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.services_sec_right {
+  display: flex;
+  margin-right: 4rem;
+  justify-content: end;
+}
+
+.services_img {
+  height: 25rem;
+  cursor: pointer;
+  margin-left: 2rem;
+  transition-duration: 1s;
+}
+
+.services_img:hover {
+  scale: 1.1;
+}
+
+.dev_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dev_video_sec {
+  width: 25vw;
+  aspect-ratio: 9/16;
+}
+
 @media only screen and (max-width: 500px) {
   .testimonial_heading h3 {
     width: auto;

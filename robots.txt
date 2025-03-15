@@ -1,4 +1,0 @@
-# robots.txt for Optimal Virtual Employee
-
-User-agent: *
-Allow: /

@@ -13,6 +13,10 @@
   margin: 0 0.5rem;
 }
 
+.swiper-slide {
+  border-radius: 20px;
+}
+
 #show_right {
   transition-duration: 2s;
   transform: translateX(0);
