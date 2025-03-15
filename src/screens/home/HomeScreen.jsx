@@ -14,9 +14,9 @@ export default function HomeScreen() {
         <div className="grid_two">
           <div className={style.hero_left}>
             <img
-              loading="lazy"
               src="/logo.svg"
-              fetchPriority="low"
+              loading="eager"
+              fetchPriority="high"
               alt="Optimal Virtual Employee"
               style={{ width: "12rem", margin: 0 }}
             />
