@@ -1,0 +1,40 @@
+.grid_two {
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.top_heading {
+  display: flex;
+  align-items: center;
+}
+
+.top_heading h2 {
+  margin: 0 0.5rem;
+}
+
+#show_right {
+  transition-duration: 2s;
+  transform: translateX(0);
+}
+
+#hide_right {
+  transition-duration: 1s;
+  transform: translateX(200%);
+}
+
+#show_left {
+  transition-duration: 2s;
+  transform: translateX(0);
+}
+
+#hide_left {
+  transition-duration: 1s;
+  transform: translateX(-200%);
+}
+
+@media only screen and (max-width: 500px) {
+  .grid_two {
+    display: block;
+  }
+}

@@ -1,0 +1,35 @@
+.add_margin {
+  margin: 2rem;
+}
+
+.img_sec {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.text_right .right_btn {
+  display: flex;
+  justify-content: end;
+}
+
+.testimonial_heading {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial_heading h3 {
+  width: 45rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .testimonial_heading h3 {
+    width: auto;
+  }
+}

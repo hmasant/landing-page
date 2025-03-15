@@ -12,11 +12,15 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ["react", "react-dom", "react-router-dom"],
+          intersection: ["react-intersection-observer"],
           swiper: ["swiper"],
-          gsap: ["gsap"],
         },
       },
     },
+  },
+
+  optimizeDeps: {
+    include: ["react", "react-dom", "react-router-dom", "swiper"],
   },
   css: { modules: { generateScopedName: "[name]__[local]___[hash:base64:5]" } },
 });
