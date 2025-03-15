@@ -24,8 +24,8 @@ export default function HomeScreen() {
               <img
                 style={{ height: "1.5rem", margin: 0 }}
                 src="/google_review.svg"
-                fetchPriority="low"
-                loading="lazy"
+                fetchPriority="high"
+                loading="eager"
                 alt="Image"
               />
               <br />
@@ -43,9 +43,9 @@ export default function HomeScreen() {
                 Book a free consultation &nbsp;
                 <img
                   style={{ height: "1.25rem" }}
-                  fetchPriority="low"
+                  fetchPriority="high"
                   src="/arrow.svg"
-                  loading="lazy"
+                  loading="eager"
                   alt="Arrow"
                 />
               </button>
