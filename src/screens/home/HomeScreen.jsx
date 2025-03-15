@@ -15,6 +15,7 @@ export default function HomeScreen() {
           <div className={style.hero_left}>
             <img
               src="/logo.svg"
+              fetchPriority="low"
               alt="Optimal Virtual Employee"
               style={{ width: "12rem", margin: 0 }}
             />
@@ -22,6 +23,7 @@ export default function HomeScreen() {
               <img
                 style={{ height: "1.5rem", margin: 0 }}
                 src="/google_review.svg"
+                fetchPriority="low"
                 alt="Image"
               />
               <br />
@@ -39,6 +41,7 @@ export default function HomeScreen() {
                 Book a free consultation &nbsp;
                 <img
                   style={{ height: "1.25rem" }}
+                  fetchPriority="low"
                   src="/arrow.svg"
                   alt="Arrow"
                 />

@@ -30,14 +30,24 @@ export default function NumbersSection() {
           <br />
           <button>
             Book a free consultation &nbsp;
-            <img style={{ height: "1.25rem" }} src="/arrow.svg" alt="Arrow" />
+            <img
+              style={{ height: "1.25rem" }}
+              fetchPriority="low"
+              src="/arrow.svg"
+              alt="Arrow"
+            />
           </button>
         </div>
         <div
           className={style.img_sec}
           id={inView ? "show_right" : "hide_right"}
         >
-          <img style={{ height: "80vh" }} src="/numbers.svg" alt="Our Story" />
+          <img
+            style={{ height: "80vh" }}
+            fetchPriority="low"
+            src="/numbers.svg"
+            alt="Our Story"
+          />
         </div>
       </div>
     </div>

@@ -28,6 +28,7 @@ export default function TestimonialSection() {
           <img
             style={{ width: "100%" }}
             src="/swipe_start.svg"
+            fetchPriority="low"
             alt="Swipe Image"
           />
         </SwiperSlide>
@@ -35,6 +36,7 @@ export default function TestimonialSection() {
           <img
             style={{ width: "100%" }}
             src="/slider_image.svg"
+            fetchPriority="low"
             alt="Image Section"
           />
         </SwiperSlide>
@@ -42,6 +44,7 @@ export default function TestimonialSection() {
           <img
             style={{ width: "100%" }}
             src="/slider_image.svg"
+            fetchPriority="low"
             alt="Image Section"
           />
         </SwiperSlide>
@@ -49,6 +52,7 @@ export default function TestimonialSection() {
           <img
             style={{ width: "100%" }}
             src="/slider_image.svg"
+            fetchPriority="low"
             alt="Image Section"
           />
         </SwiperSlide>
@@ -56,6 +60,7 @@ export default function TestimonialSection() {
           <img
             style={{ width: "100%" }}
             src="/slider_image.svg"
+            fetchPriority="low"
             alt="Image Section"
           />
         </SwiperSlide>
@@ -63,6 +68,7 @@ export default function TestimonialSection() {
           <img
             style={{ width: "100%" }}
             src="/slider_image.svg"
+            fetchPriority="low"
             alt="Image Section"
           />
         </SwiperSlide>
@@ -70,6 +76,7 @@ export default function TestimonialSection() {
           <img
             style={{ width: "100%" }}
             src="/swipe_end.svg"
+            fetchPriority="low"
             alt="Swipe Image"
           />
         </SwiperSlide>

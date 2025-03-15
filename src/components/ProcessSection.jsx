@@ -8,7 +8,12 @@ export default function ProcessSection() {
     <div ref={ref} className={style.add_margin}>
       <div className="grid_two">
         <div id={inView ? "show_left" : "hide_left"} className={style.img_sec}>
-          <img style={{ height: "80vh" }} src="/steps.svg" alt="Image" />
+          <img
+            style={{ height: "80vh" }}
+            fetchPriority="low"
+            src="/steps.svg"
+            alt="Image"
+          />
         </div>
         <div
           className={style.text_right}
@@ -36,7 +41,12 @@ export default function ProcessSection() {
           <div className={style.right_btn}>
             <button>
               Book a free consultation &nbsp;
-              <img style={{ height: "1.25rem" }} src="/arrow.svg" alt="Arrow" />
+              <img
+                style={{ height: "1.25rem" }}
+                fetchPriority="low"
+                src="/arrow.svg"
+                alt="Arrow"
+              />
             </button>
           </div>
         </div>
