@@ -25,6 +25,48 @@
   background-image: url("/hero_bg.svg");
 }
 
+.hero_menu {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.hero_menu a {
+  color: white;
+}
+
+.hero_menu button {
+  font-weight: bold;
+  background-color: white;
+}
+
+.hero_right form {
+  margin: 5rem;
+}
+
+.hero_right form input,
+.hero_right form textarea {
+  border: 0;
+  width: 100%;
+  color: white;
+  padding: 0.5rem;
+  font-weight: 100;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.form_btn {
+  display: flex;
+  justify-content: end;
+}
+
+.form_btn button {
+  font-weight: bold;
+  background-color: white;
+}
+
 @media only screen and (max-width: 500px) {
   .hero_right {
     display: none;

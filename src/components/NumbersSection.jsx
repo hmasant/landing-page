@@ -27,7 +27,7 @@ export default function NumbersSection() {
         <br />
         <br />
         <br />
-        <button>
+        <button className="main_btn">
           Book a free consultation
           <img
             style={{ height: "1.25rem" }}

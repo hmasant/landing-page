@@ -10,6 +10,9 @@ const TestimonialSection = lazy(() =>
 const DeveloperSection = lazy(() =>
   import("../../components/DeveloperSection")
 );
+const PortfolioSection = lazy(() =>
+  import("../../components/PortfolioSection")
+);
 
 export default function HomeScreen() {
   return (
@@ -39,7 +42,7 @@ export default function HomeScreen() {
               </p>
               <br />
               <br />
-              <button>
+              <button className="main_btn">
                 Book a free consultation
                 <img
                   style={{ height: "1.25rem" }}
@@ -49,7 +52,33 @@ export default function HomeScreen() {
               </button>
             </div>
           </div>
-          <div className={style.hero_right}></div>
+          <div className={style.hero_right}>
+            <div className={style.hero_menu}>
+              <a href="#">Contact Us</a>
+              &nbsp; &nbsp; &nbsp; &nbsp;
+              <button>Book a call</button>
+            </div>
+            <form action="#">
+              <input type="text" placeholder="Full Name" required />
+              <br />
+              <br />
+              <br />
+              <div className="grid_two">
+                <input type="email" placeholder="Email" required />
+                <input type="number" placeholder="Phone" required />
+              </div>
+              <br />
+              <br />
+              <br />
+              <textarea placeholder="Project Description"></textarea>
+              <br />
+              <br />
+              <br />
+              <div className={style.form_btn}>
+                <button type="submit">Book a Free Consultation</button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
       <section>
@@ -66,6 +95,9 @@ export default function HomeScreen() {
       </section>
       <section>
         <DeveloperSection />
+      </section>
+      <section>
+        <PortfolioSection />
       </section>
     </section>
   );

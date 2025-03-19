@@ -40,45 +40,13 @@ p {
   font-size: 1.5rem;
 }
 
-button img {
-  margin-left: 0.5rem;
-  transition-duration: 1s;
-}
-
 button {
   border: 0;
-  z-index: 1;
-  display: flex;
-  color: white;
   cursor: pointer;
   font-size: 1rem;
-  overflow: hidden;
-  position: relative;
   padding: 1rem 2rem;
-  align-items: center;
-  background-color: black;
-  animation: flying 1.5s infinite alternate;
-}
-
-button::before {
-  top: 0;
-  content: "";
-  z-index: -1;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: #ce2d31;
-  transition: left 0.25s ease;
-}
-
-button:hover::before {
-  left: 0;
-}
-
-button:hover img {
-  scale: 1.25;
-  margin-left: 1.5rem;
+  text-decoration: none;
+  background-color: inherit;
 }
 
 hr {
@@ -87,14 +55,15 @@ hr {
   border-top: 2px solid black;
 }
 
-@keyframes flying {
-  0% {
-    transform: translateY(0);
-  }
+input:focus,
+textarea:focus {
+  outline-style: none;
+  outline-color: transparent;
+}
 
-  100% {
-    transform: translateY(1.5rem);
-  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 @media only screen and (max-width: 500px) {
